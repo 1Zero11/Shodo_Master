@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "754539330002",
+    "project_id": "shodo-master",
+    "storage_bucket": "shodo-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754539330002:android:228986e0b7968d6de4300b",
+        "android_client_info": {
+          "package_name": "com.Jidake.KanjiQuest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754539330002-vb1di2i0s7279kagjofvmpqhc9aolo74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXnP3aSeEDEGCgde9r_7nws3llDKIPmeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754539330002-vb1di2i0s7279kagjofvmpqhc9aolo74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -815,9 +815,13 @@ public class GameControl : MonoBehaviour {
         else
         {
             masteryLevel = 0;
-            currentObjectives = new List<Objective>();
-            currentObjectives.Add(MainFightingScript.MFS.objectives[0]);
-            currentObjectives.Add(MainFightingScript.MFS.objectives[4]);
+            currentObjectives = new List<Objective>
+            {
+                MainFightingScript.MFS.objectives[0],
+                MainFightingScript.MFS.objectives[4]
+            };
+
+            currentObjectives[0].isOn = true;
             probabilities = new int[AllKanji.Length];
             for (int i = 0; i < probabilities.Length; i++)
             {

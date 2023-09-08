@@ -94,10 +94,15 @@ public class Drawer : MonoBehaviour {
 
     public void TurnLines(bool isActive)
     {
-            foreach (GameObject gm in instantiatedStrokes)
-            {
+        foreach (GameObject gm in instantiatedStrokes)
+        {
             gm.SetActive(isActive);
-            }
+        }
+
+        foreach (GameObject gm in lastHelpLines)
+        {
+            gm.SetActive(isActive);
+        }
     }
 
 
